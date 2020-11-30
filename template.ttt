@@ -1,0 +1,57 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tbp]
+
+\begin{center}
+\begin{threeparttable}
+
+\caption{\label{tab:unnamed-chunk-2}Descriptive statistics of reading scores by race}
+
+\begin{tabular}{lllll}
+\toprule
+race & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{SD} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Max}\\
+\midrule
+A & 60.65 & 16.14 & 33.71 & 115.04\\
+AI & 51.29 & 9.68 & 33.78 & 102.66\\
+B & 52.63 & 10.37 & 33.41 & 113.45\\
+H & 50.44 & 9.68 & 33.14 & 107.71\\
+HPI & 54.58 & 12.52 & 34.30 & 104.81\\
+W & 55.72 & 11.20 & 33.22 & 164.33\\
+\bottomrule
+\addlinespace
+\end{tabular}
+
+\begin{tablenotes}[para]
+\normalsize{\textit{Note.} This table was created with apa\_table()}
+\end{tablenotes}
+
+\end{threeparttable}
+\end{center}
+
+\end{table*}
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tbp]
+
+\begin{center}
+\begin{threeparttable}
+
+\caption{\label{tab:anova-table}ANOVA table for the analyis of the example data set.}
+
+\begin{tabular}{lrcrrrl}
+\toprule
+Effect & \multicolumn{1}{c}{$F$} & \multicolumn{1}{c}{$\mathit{df}_1$} & \multicolumn{1}{c}{$\mathit{df}_2$} & \multicolumn{1}{c}{$\mathit{MSE}$} & \multicolumn{1}{c}{$p$} & \multicolumn{1}{c}{$\hat{\eta}^2_p$}\\
+\midrule
+Race & 184.91 & 5 & 14,063 & 127.63 & < .001 & .062\\
+\bottomrule
+\addlinespace
+\end{tabular}
+
+\begin{tablenotes}[para]
+\normalsize{\textit{Note.} This is a table created using apa\_print() and apa\_table().}
+\end{tablenotes}
+
+\end{threeparttable}
+\end{center}
+
+\end{table*}
